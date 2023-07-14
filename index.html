@@ -1,0 +1,484 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Foodklick</title>
+    <!-- Google fonts -->
+    <!-- Template CSS Style link -->
+    <link rel="stylesheet" href="assets/css/style-starter.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900|Ubuntu:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/vendor/dist/aos.css" />
+      
+    <script>
+ window.onload = function() {
+  $(".img-fluid").addClass("img-fluid");
+};
+</script>
+</head>
+
+<body>
+    <!-- header -->
+    <header id="site-header" class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div style="float: left;" class="me-6"><img src="assets\UI KITS\foodclicklogo.png" class="img-fluid-logo"></div>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#HowTtUse">How to use</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#price">Pricing & Package</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact US</a>
+                        </li>
+                        <li class="nav-item">
+                          <input type="button" value="Login" style="color:white;background: #9509B2;border: none;border-radius: 7px;width: 1.5cm;height: 0.8cm;font-size: 12px;font-weight: 100;">
+                        </li>
+                        <li class="nav-item">
+                            <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+                               <div id="google_translate_element" style="font-size:5px;"></div>                      
+                                <script type="text/javascript">  
+                                function googleTranslateElementInit() {  
+                                new google.translate.TranslateElement(  
+                                    {pageLanguage:'en',includedLanguages : 'en,ar,hi'},  
+                                    'google_translate_element'  
+                                );
+                                 var $googleDiv = $("#google_translate_element .skiptranslate");
+                                  var $googleDivChild = $("#google_translate_element .skiptranslate div");
+                                  $googleDivChild.next().remove();
+
+                                  $googleDiv.contents().filter(function(){
+                                    return this.nodeType === 3 && $.trim(this.nodeValue) !== '';
+                                  }).remove();
+
+                          $(document).ready(function(){
+                            $('#google_translate_element').bind('DOMNodeInserted', function(event) {
+                              $('.goog-te-menu-value span:first').html('Translate');
+                              $('.goog-te-menu-frame.skiptranslate').load(function(){
+                                setTimeout(function(){
+                                  $('.goog-te-menu-frame.skiptranslate').contents().find('.goog-te-menu2-item-selected .text').html('Translate');    
+                                }, 100);
+                              });
+                            });
+                          });
+
+                            }  
+                        </script>
+                        <script type="text/javascript"   
+                        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">  
+                        </script> 
+                    </li>
+                    </ul>              
+                </div>               
+            </nav>
+        </div>
+    </header>
+    <!-- //header -->
+
+    <!-- banner section -->
+    <section id="home" class="w3l-banner">
+        <div class="banner-content">
+            <div class="container">
+                <div class="row align-items-center pt-sm-4 pt-00">
+                    <div class="col-md-6 order-2 order-md-1">
+                        <h3>
+                              Smarter Menus, <h3 class="d-block">Happier Guests</h3>
+                        </h3>
+                        <p class="banner-sub">Discover the Magic of Our Digital Menu Software</p>
+                        <a href="#" class="btn btn-style">Start Your FREE Trail</a>                       
+                    </div>
+                    <div class="col-md-6 order-1 order-md-2 text-start position-relative">
+                            <img src="assets\UI KITS\FRONTnew.png" class="img-fluid position-relative" alt=" ">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner section -->
+
+    <!-- about section -->
+    <section class="w3l-aboutblock py-0" id="about">
+        <div class="container py-md-5 py-4">
+            <div class="row">
+                <div class="col-lg-6 left-wthree-img position-relative mb-lg-0 mb-5 pb-lg-0 pb-5">
+                    <img src="assets\UI KITS\aboutimg.png" alt="" class="img-fluid radius-image">
+                </div>
+                <div class="col-lg-6 about-right-faq align-self ps-lg-5 mt-xl-4">
+                    <h3>ABOUT US</h3>
+                    <p>Welcome to the cutting-edge world of dining with our
+                    innovative digital menu –FOOD KLICK! Gone are the
+                    days of traditional paper menus; we're thrilled to present
+                    an entirely new and interactive way to explore and savor
+                    our delectable offerings.
+                    </p>
+                    <a href="#" class="arrow-view">Learn More <span class="fa fa-long-arrow-right"></span></a> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //about section -->
+
+    <!-- Menu section -->
+    <section class="w3l-bottom-grids-6 py-0">
+        <div class="container">
+            <h3 class="text-center">Menu Made Modern</h3>
+            <p class="text-center mt-5">Introducing Rideware’s ‘FOOD CLICK’</p>
+            <div class="row justify-content-center mt-5">
+                <div class="col-lg-3 col-md-6 grids-feature" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="0" data-aos-duration="1000">                 
+                        <img class="img-fluid-phone" src="assets\UI KITS\PHONE 1.png" alt=" ">                    
+                </div>
+                <div class="col-lg-3 col-md-6 grids-feature mt-md-0 mt-sm-5 mt-4" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="200" data-aos-duration="1000">                  
+                        <img class="img-fluid-phone" src="assets\UI KITS\PHONE 2.png" alt=" ">
+                </div>
+                <div class="col-lg-3 col-md-6 grids-feature mt-lg-0 mt-sm-5 mt-4" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="400" data-aos-duration="1000">                  
+                        <img class="img-fluid-phone" src="assets\UI KITS\PHONE 3.png" alt=" ">
+                </div>
+                <div class="col-lg-3 col-md-6 grids-feature mt-lg-0 mt-sm-5 mt-4" data-aos="zoom-in" data-aos-offset="200" data-aos-delay="800" data-aos-duration="1000">                  
+                        <img class="img-fluid-phone" src="assets\UI KITS\PHONE 4.png" alt=" ">
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- // Menu section -->
+
+
+    <!-- 4 grids section features-->
+    <section class="w3l-index-block4 pt-5" id="features">
+        <div class="container pt-md-4">
+            <h3 style="font-size: 40px;font-weight: 700;color:#413e41;" class="text-center">FEATURES</h3>
+            <p class="head-text text-center mt-5">Our Digital Menu is comprehensive and has a list of the features and functions</p><br><br>
+            <div class="row mt-5">
+                    <div class="col-lg-3 col-md-6  out-line">
+                        
+                            <div class="features15-para">
+                                <div style="text-align: center;"><img src="assets\UI KITS\menu (1).png" class="img-fluid-feature"></div>
+                                <h4 class="text-center">Interactive
+                                 Menu Display</h4>
+                                <p class="text-center mb-4" style="font-size:14px;">A user-friendly interface that presents menu items in an engaging and visually appealing
+                                manner, often with high-quality images and detailed descriptions.</p>
+                            </div>
+                                          
+                    </div>
+                   <div class="col-lg-3 col-md-6 out-line">
+                            
+                                <div class="features15-para">
+                                    <div style="text-align: center;"><img src="assets\UI KITS\bar.png" class="img-fluid-feature" ></div>
+                                    <h4 class="text-center">Menu Categories</h4>
+                                    <p class="text-center mb-4" style="font-size:14px;">Organizes items into different categories such as appetizers, main courses, desserts, beverages, etc., making it easy for customers to navigate and find what they want.</p>
+                                </div>
+                                              
+                    </div>
+                <div class="col-lg-3 col-md-6 out-line">
+                        <div>
+                            <div class="features15-para">
+                                <div style="text-align: center;"><img src="assets\UI KITS\fruits.png" class="img-fluid-feature" ></div>
+                                <h4 class="text-center">Allergen and Dietary Information</h4>
+                                <p class="text-center mb-4" style="font-size:14px;">Provides detailed information about ingredients and potential allergens, helping customers make informed choices based on their dietary needs.</p>
+                            </div>
+                        </div>                   
+                </div>
+                <div class="col-lg-3 col-md-6 out-line-one">
+                        
+                            <div class="features15-para">
+                                <div style="text-align: center;"><img src="assets\UI KITS\news.png" class="img-fluid-feature" ></div>
+                                <h4 class="text-center">Real-Time Updates</h4>
+                                <p class="text-center mb-4" style="font-size:14px;">Ensures that the menu is always up-to-date with the latest offerings, prices, and availability of dishes.</p>
+                            </div>
+                                           
+                </div>
+                <div class="col-lg-3 col-md-6 out-line-right">
+                            <br>
+                            <div class="features15-para">
+                                <div style="text-align: center;"><img src="assets\UI KITS\checklist (2).png" class="img-fluid-feature" ></div>
+                                <h4 class="text-center">Order Management</h4>
+                                <p class="text-center mb-4" style="font-size:14px;">Facilitates order processing, allowing customers to place their orders directly through the digital menu system.</p>
+                            </div>
+                                          
+                </div>
+                <div class="col-lg-3 col-md-6 out-line-right">
+                        <br>
+                            <div class="features15-para">
+                                <div style="text-align: center;"><img src="assets\UI KITS\pos-terminal (3).png" class="img-fluid-feature" ></div>
+                                <h4 class="text-center">Integration with TOPTABLE POS Systems</h4>
+                                <p class="text-center mb-4" style="font-size:14px;">: Integrates with Rideware’s TOPTABLE restaurant's Point-of-Sale (POS) system,
+                                ensuring seamless communication between the digital menu and kitchen staff.</p>
+                            </div>
+                                          
+                </div>
+                <div class="col-lg-3 col-md-6 out-line-right">
+                        <br>
+                            <div class="features15-para">
+                                <div style="text-align: center;"><img src="assets\UI KITS\dinning-room.png" class="img-fluid-feature" ></div>
+                                <h4 class="text-center">Tableside Ordering</h4>
+                                <p class="text-center mb-4" style="font-size:14px;">Enables servers to take orders directly at the table using handheld tablets, reducing wait times and streamlining the ordering process.</p>
+                            </div>
+                                          
+                </div>
+                <div class="col-lg-3 col-md-6">
+                        <br>
+                            <div class="features15-para">
+                                <div style="text-align: center;"><img src="assets\UI KITS\dashboard (1).png" class="img-fluid-feature" ></div>
+                                <h4 class="text-center">Analytics and Reporting</h4>
+                                <p class="text-center mb-4" style="font-size:14px;">Provides restaurant owners with data and insights on customer preferences, popular dishes, sales trends, and other performance metrics.</p>
+                            </div>
+                                          
+                </div>
+            </div><br>
+            <div style="text-align:center;" class="mt-5">
+                <a href="#" class="arrow-view">Learn More <span class="fa fa-long-arrow-right"></span></a> </div>
+            </div>
+        </div>
+    </section>
+    <!-- //4 grids section -->
+
+    <!-- use section -->
+    <section class="w3l-chef pt-7" id="HowTtUse">
+        <div class="container pt-2 ">
+            <div style="text-align:center;" data-aos="fade-right" data-aos-offset="200" data-aos-delay="0" data-aos-duration="1500">
+                    <img src="assets\UI KITS\qrstand.png"  class="img-fluid-qrstand" >
+            </div>
+            <div class="row">
+                <h3 style="font-size: 40px;font-weight: 700;color:#413e41;" class="text-center">How it use</h3><br>
+                    <div class="col-lg-4 col-md-4  out-line-step">                      
+                            <div class="features15-para">                               
+                                <h4 class="text-center">Step 01</h4>
+                                <p class="text-center" style="font-size:12px;">Launch the digital menu through the QR code.</p>
+                            </div>                                         
+                    </div>
+                   <div class="col-lg-4 col-md-4 out-line-step">                            
+                                <div class="features15-para ">                                  
+                                    <h4 class="text-center">Step 02</h4>
+                                    <p class="text-center" style="font-size:12px;">Explore the menu, browse dishes, and view details with images and Customize your order to suit your preferences..</p>
+                                </div>                                            
+                    </div>
+                <div class="col-lg-4 col-md-4">
+                        <div>
+                            <div class="features15-para ">
+                                <h4 class="text-center">Step 03</h4>
+                                <p class="text-center" style="font-size:12px;">Add items to your order, Confirm your order and
+                                wait for your food</p>
+                            </div>
+                        </div>                   
+                </div>
+            </div>
+            <br>
+                    <div style="text-align:center;">
+                    <a href="#" style="font-size: 14px;" class="arrow-view">Know More <span class="fa fa-long-arrow-right"></span></a> </div>
+        </div>
+    </section>
+    <!-- use section -->
+
+    <!-- price section -->
+<section id="price">
+<div class="container pt-md-5">
+        <h3 style="font-size: 40px;font-weight: 700;color:#413e41;" class="text-center">Pricing & Package</h3><br>
+        <div class="row justify-content-center">
+              <div class="card cards card-2 text-center" style="width: 16rem;">
+              <div class="card-body">
+                <h5 class="card-title">Basic Plan</h5><br>
+                <p class="text-center" style="font-size:12px;">Monthly Price</p>
+                <h3 style="font-size: 30px;font-weight: 700;color:#413e41;" class="text-center">AED99.00</h3>
+                <p class="card-text"style="font-size:15px;">Include 1 year license Fee</p><br>
+                <a href="#" class="btn btn-primary">Register Now.!</a><br><br>
+                <a href="features.html" style="font-size: 14px;" class="arrow-view">View More <span class="fa fa-long-arrow-right"></span></a>
+                </div>
+              </div>
+            <div class="card cards card-2 text-center" style="width: 16rem;">
+              <div class="card-body">
+                <h5 class="card-title">Advance Plan</h5><br>
+                <p class="text-center" style="font-size:12px;">Monthly Price</p>
+                <h3 style="font-size: 30px;font-weight: 700;color:#413e41;" class="text-center">AED190.00</h3>
+                <p class="card-text"style="font-size:15px;">Include 1 year license Fee</p><br>
+                <a href="#" class="btn btn-primary">Register Now.!</a><br><br>
+                <a href="features.html" style="font-size: 14px;" class="arrow-view">View More <span class="fa fa-long-arrow-right"></span></a>
+                </div>
+              </div>
+            <div class="card cards card-2 text-center" style="width: 16rem;">
+              <div class="card-body">
+                <h5 class="card-title">Premium Plan</h5><br>
+                <p class="text-center" style="font-size:12px;">Monthly Price</p>
+                <h3 style="font-size: 30px;font-weight: 700;color:#413e41;" class="text-center">AED290.00</h3>
+                <p class="card-text"style="font-size:15px;">Include 1 year license Fee</p><br>
+                <a href="#" class="btn btn-primary">Register Now.!</a><br><br>
+                <a href="features.html" style="font-size: 14px;" class="arrow-view">View More <span class="fa fa-long-arrow-right"></span></a>
+                </div>
+              </div>
+        </div>
+    </div>
+</section>
+
+    <!-- price section -->
+
+
+    <!-- footer -->
+    <br><br>
+   <section class="w3l-footer-22 py-5" id="contact">
+        <div class="container py-md-5 py-4">
+            <div class="row justify-content-center align-items-center">
+                <h3 style="font-size: 40px;font-weight: 700;color:#fff;line-height: 45px;" class="text-center">Ready to Learn more?</h3>
+                <h3 style="font-size: 40px;font-weight: 700;color:#fff;line-height: 45px;" class="text-center">Get started for free Trial</h3>
+                <br><br><br>
+                <a href="#" class="btn btn-style text-button">Start Your FREE Trail</a>
+                <br><br><br>                
+            </div>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.2153385690613!2d55.313673415010854!3d25.263340583865492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6bcacc2421c3%3A0x953371f6843b9915!2sRIDEWARE%20TECHNOLOGIES%20EST.!5e0!3m2!1sen!2sin!4v1688661514556!5m2!1sen!2sin"  width="100%" height="400px" style="filter: invert(80%);opacity: 0.8;"></iframe><br><br><br>
+
+         <div class="content">   
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 mr-auto">     
+          <ul class="list-unstyled pl-md-5 mb-5">
+            <li class="d-flex text-black-50  font-loc mb-2">
+              <span class="mr-3"><span class="fa fa-map-marker"></span></span> &nbsp;AL REEM TOWER, Office No.M12 &M13,<br>
+                Al Maktoum Road Deira,
+                <br> Dubai - United Arab Emirates
+            </li>
+            <li class="d-flex text-black-50 mb-2 font-loc"><span class="mr-3"><span class="fa fa-phone"></span></span>&nbsp; +971 45298627 , +971 44228190</li>
+            <li class="d-flex text-black-50 font-loc"><span class="mr-3"><span class="fa fa-whatsapp"></span></span>&nbsp; +971 45298627 </li>
+            <li class="d-flex text-black-50 font-loc"><span class="mr-3"><span class="fa fa-envelope"></span></span>&nbsp; info@ridewaretech.com </li>
+            <li class="d-flex text-black-50 font-loc"><span class="mr-3"><span class="fa fa-globe"></span></span> &nbsp;www.ridewaretech.com </li><br>
+            <li class="d-flex" > <span class="mr-3 text-black-50 font-loc"><span class="fa fa-facebook"></span></span>&nbsp;<span class="mr-3 text-black-50 font-loc"><span class="fa fa-instagram"></span></span>&nbsp;
+          <span class="mr-3 text-black-50 font-loc"><span class="fa fa-linkedin"></span></span></li>
+          </ul>
+        </div>
+
+        <div class="col-md-6">
+          <form class="mb-5" method="post" id="contactForm" name="contactForm">
+            <div class="row">             
+              <div class="col-md-12 form-group">
+                <input type="text" class="form-control"  placeholder="Name">
+              </div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-md-12 form-group">
+                <input type="text" class="form-control"  placeholder="Mobile Number"> 
+              </div>
+            </div>
+            
+            <div class="row mt-2">
+              <div class="col-md-12 ">
+                <textarea class="form-control" name="message" id="message" cols="30" rows="7" placeholder="Message"></textarea>
+              </div>
+            </div>
+             <div class="row mt-2" style="text-align: center;">
+              <div style="text-align:center;">
+                <input type="submit" value="Submit" class="rounded-1 py-2 px-4 btn btn-style ">
+              </div>
+           </div>
+          </form>
+        </div>
+      </div>
+  </div>
+</div>  
+   </section>
+
+    <!-- footer -->
+    <!-- copyright -->
+    <section class="copy-right">
+       <div class=" text-center mt-4">
+            <div class="container">
+                <div class="columns">
+                    <p>Powered By RIDEWARE TECHNOLOGIES</p>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- //copyright -->
+
+    <!-- Js scripts -->
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" title="Go to top" style="color:#9509b2;">
+        <span class="fa fa-arrow-top" aria-hidden="true" style="color:#fff"></span>
+    </button>
+    <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+            } else {
+                document.getElementById("movetop").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- //move top -->
+
+    <!-- common jquery plugin -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <!-- //common jquery plugin -->
+
+    <!-- owl carousel -->
+    <script src="assets/js/owl.carousel.js"></script>
+
+    <!-- MENU-JS -->
+    <script>
+        $(window).on("scroll", function () {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 80) {
+                $("#site-header").addClass("nav-fixed");
+            } else {
+                $("#site-header").removeClass("nav-fixed");
+            }
+        });
+
+        //Main navigation Active Class Add Remove
+        $(".navbar-toggler").on("click", function () {
+            $("header").toggleClass("active");
+        });
+        $(document).on("ready", function () {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+            $(window).on("resize", function () {
+                if ($(window).width() > 991) {
+                    $("header").removeClass("active");
+                }
+            });
+        });
+    </script>
+    <!-- //MENU-JS -->
+
+    <!-- bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- //bootstrap -->
+    <!-- //Js scripts -->
+      <script src="vendor/vendor/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
